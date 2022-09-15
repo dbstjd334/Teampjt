@@ -29,8 +29,12 @@ try{
 	stmt.setString(1, id);
 	stmt.setString(2, password);
 	ResultSet resultset=stmt.executeQuery();
-	if(resultset.next()==true) {
-		session.setAttribute("login",true);
+	if( resultset.next() ) {
+		System.out.println( "로그인성공!" );
+
+		session.setAttribute("login","true");
+		session.setMaxInactiveInterval(1000);
+		
 	}
 	else {
 		response.sendRedirect("index.jsp");
@@ -39,5 +43,10 @@ try{
 catch(SQLException e) {
 }
 %>
+
+<h1>로그인이 완료되었습니다</h1>
+<button onclick="location.href='index.jsp' ">홈화면으로</button>
+
+
 </body>
 </html>
