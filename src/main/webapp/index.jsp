@@ -11,7 +11,7 @@
 	<h1> 홈 화면 </h1>
 	<% String test = "true" ;
 	   /* String getSession = (String)session.getAttribute(""); */
-	   String getSession = "false";
+	   String getSession = (String)session.getAttribute("login");
 		String test1 = "";
 	   String test2 = "";
    
