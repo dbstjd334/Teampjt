@@ -8,6 +8,8 @@
 </head>
 <body>
 	<h1>회원가입 페이지</h1>
+	
+	
 	<button onclick="location.href='index.jsp'">홈으로</button>
 
 
