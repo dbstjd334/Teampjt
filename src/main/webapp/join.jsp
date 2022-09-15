@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,26 +40,26 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>È¸¿ø°¡ÀÔ ÆäÀÌÁö</h1>
+	<h1>íšŒì›ê°€ìž… íŽ˜ì´ì§€</h1>
 	
 	 <form action="signComplete.jsp">
    
       <fieldset id="regbox">
    
-         <legend>È¸¿ø°¡ÀÔ</legend>
+         <legend>íšŒì›ê°€ìž…</legend>
          
-         <label for="ids">¾ÆÀÌµð</label>
-         <input type="text" name="ids"/><br/>
+         <label for="ids">ì•„ì´ë””</label>
+         <input type="text" name="id"/><br/>
 
-         <label for="pwd">ºñ¹Ð¹øÈ£</label>
+         <label for="pwd">ë¹„ë°€ë²ˆí˜¸</label>
          <input type="password" name="pwd"/><br/>
    
-         <label for="name">ÀÌ¸§</label>
+         <label for="name">ì´ë¦„</label>
          <input type="text" name="name"/>
    
          <div id = input>
-            <input type="submit" value="°¡ÀÔ">
-            <input type="reset" value="Ãë¼Ò"/>
+            <input type="submit" value="ê°€ìž…">
+            <input type="reset" value="ì·¨ì†Œ"/>
          </div>
          
       </fieldset>

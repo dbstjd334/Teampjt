@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,16 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>·Î±×ÀÎ ÆäÀÌÁö</h1>
+	<h1>ë¡œê·¸ì¸ íŽ˜ì´ì§€</h1>
 	
 	
 	<form action="checkAccount.jsp">
-		¾ÆÀÌµð : <input type="text" name="id">
+		ì•„ì´ë”” : <input type="text" name="id">
 		<br> 
-		ºñ¹Ð¹øÈ£ :<input type="password" name="pwd">
+		ë¹„ë°€ë²ˆí˜¸ :<input type="password" name="pwd">
 		<br>
-		<input type="submit" value="·Î±×ÀÎ">
-		<a href = "join.jsp">È¸¿ø°¡ÀÔ</a>
+		<input type="submit" value="ë¡œê·¸ì¸">
+		<a href = "join.jsp">íšŒì›ê°€ìž…</a>
 	</form>
 		<br>
 		
