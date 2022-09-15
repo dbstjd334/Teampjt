@@ -8,14 +8,22 @@
 </head>
 <body>
 	<h1>로그인 페이지</h1>
-
-	아이디 : <input type="text" name="id">
-	<br> 
-	비밀번호 :<input type="password" name="pwd">
-	<br>
-	<input type="submit" value="보내기">
-
-	<button onclick="location.href='join.jsp'">로그인</button>
+	
+	
+	<form action="checkAccount.jsp">
+		아이디 : <input type="text" name="id">
+		<br> 
+		비밀번호 :<input type="password" name="pwd">
+		<br>
+		<input type="submit" value="로그인">
+		<a href = "join.jsp">회원가입</a>
+	</form>
+		<br>
+		
+		
+		<%
+		
+		%>
 
 </body>
 </html>
