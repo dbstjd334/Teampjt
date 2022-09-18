@@ -9,13 +9,16 @@
 </head>
 <body>
 	<h1> 홈 화면 </h1>
+	
 	<% String test = "true" ;
 	   /* String getSession = (String)session.getAttribute(""); */
-	   String getSession = "false";
+	   System.out.println( session.getAttribute("login") );
+	   String gs = (String)session.getAttribute("login");
+	   
 		String test1 = "";
 	   String test2 = "";
    
-	 if( test.equals("true") ){
+	 if( gs != null ){
 		%> 
 		 <button onclick="location.href='sessionRemove.jsp'">로그아웃</button>
 	 <% }else{%>
@@ -24,17 +27,8 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-   
    <%
-      if (test.equals("true") ){
+      if ( gs != null ){
          test1 = "content.jsp";
       }else{
          test1 = "#";
