@@ -17,6 +17,7 @@
 		<br>
 		<input type="submit" value="로그인">
 		<a href = "join.jsp">회원가입</a>
+		<a href="searchID.jsp">아이디 찾기</a>&nbsp;&nbsp;&nbsp;<a href="searchPass.jsp">비밀번호 찾기</a>
 	</form>
 		<br>
 		
