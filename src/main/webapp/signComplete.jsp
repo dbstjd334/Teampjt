@@ -10,7 +10,7 @@
 <head>
 
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>[ ChanVerse_gr1 ]</title>
 </head>
 <body>
 	<h1>회원 가입이 완료되었습니다</h1>
