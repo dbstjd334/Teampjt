@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>[ ChanVerse_gr1 ]</title>
 </head>
 <body>
 <%
