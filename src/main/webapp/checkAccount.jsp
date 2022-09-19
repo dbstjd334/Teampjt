@@ -19,7 +19,7 @@ String password = request.getParameter("pwd");
 Class.forName("org.mariadb.jdbc.Driver");
 System.out.println("mariadb 사용가능");
 
-Connection conn = DriverManager.getConnection("jdbc:mariadb://172.30.1.37:3306/db01","root","1234");
+Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/db01","root","1234");
 
 try{
 	
