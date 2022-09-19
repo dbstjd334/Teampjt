@@ -21,7 +21,7 @@ String password = request.getParameter("pwd");
 Class.forName("org.mariadb.jdbc.Driver");
 System.out.println("mariadb 사용가능");
 
-Connection conn = DriverManager.getConnection("jdbc:mariadb://192.168.1.25:3306/db01","root","1234");
+Connection conn = DriverManager.getConnection("jdbc:mariadb://192.168.1.38:13306/db01","root","1234");
 
 try{
 	PreparedStatement stmt = conn.prepareStatement("select * from memberList where id=? and pwd=?"); 

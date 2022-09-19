@@ -31,7 +31,7 @@
 		Connection conn = null;						// Connection :  데이터베이스와 연결한는 객체
 		Statement stmt = null;						// Statement : sql구문을 실행하는 클래스, / 스스로 sql구문을 이해하지 못함(해석이나 오류탐지 불가)/ sql관리 ㅇ, 연결정보는 없음
 
-		String url = "jdbc:mariadb://192.168.1.25:3306/db01";
+		String url = "jdbc:mariadb://192.168.1.38:13306/db01";
 		String id = "root";
 		String pw = "1234";
 
